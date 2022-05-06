@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+h1{
+    text-shadow: 5px 1px 3px white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    color: black ;
+    
+}
+
+.top{
+    font-size: 50px;
+    background: #86b300;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border: 2px black solid;
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+.options{
+    font-size: 22px;
+    text-decoration: none;
+    background: black ;
+    color: white ;
+    padding: 20px 50px 20px 50px;    
+    margin: 1rem -1rem 3rem 1rem;
+    display: inline-block;
+    text-align: center;    
+    font-family: 'Dancing Script', cursive;   
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    border: 5px  #86b300 solid;
+    
+}
+a:hover{
+    background:wheat ;
+ }
+
+ .toppic{
+    position:relative;
+    width: 15%;
+    bottom: 330px;
+    height: 20vh;
+    right: 600px;
+ }
+ .p0{
+    position: relative;
+    bottom: 3px;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: url("/bib.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    border: 5px black double;
+    
+    width: 100%;
+ }
+
+ .p1{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /*background: url("/SUNRISE.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    display: inline-block;
+    
+ }
+ .a1{
+    padding: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: ;
+    display: inline-block;
+    float: left;
+
+    
+    
+    
+}
+
+
+
+.i1{
+    position: relative;
+    width: 30%;
+    /*float: right;*/
+    bottom: 400px;
+    
+    /*margin-right: 100px;*/
+    /*margin-left: 40px;
+    margin-top: 150px;*/
+    background: maroon;
+    left: 30px;
+    
+    
+
+}
+.b1{
+     width: 40%;
+     margin-left: 20px;
+     margin-top: 1px;
+     display: inline-block;
+     float: left;
+}
+h2{
+    background: #86b300 ;
+    font-family: 'Balsamiq Sans', cursive; ;
+    padding: 20px 50px 20px 50px;    
+    margin: 1rem -1rem 3rem 1rem;
+    border: 5px black solid;
+    /*display: inline-block;*/
+
+}
+.p2{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+    display: inline-block;
+   /* border: 5px black solid;*/
+
+
+ }
+ .a2{
+    padding: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: ;
+    display: inline-block;
+
+    
+    
+    
+}
+
+
+
+.i2{
+    position: relative;
+    width: 30%;
+    /*float: right;*/
+    bottom: 400px;
+    
+    /*margin-right: 100px;*/
+    /*margin-left: 40px;
+    margin-top: 150px;*/
+    background: maroon;
+    left: 30px;
+    
+    
+
+}
+.b2{
+    width: 40%;
+    margin-left: 20px;
+     margin-top: 1px;
+     display: inline-block;
+     float: right;
+     bottom: 1000px;
+     top: 1000px;
+
+}
+.p3{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /*background: url("/SUNRISE.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;*/
+ }
+ .a3{
+    padding: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    
+    display: inline-block;
+    float: left;
+
+}
+
+
+
+.i3{
+    position: relative;
+
+    top: 5px;
+    bottom: 10px;
+    
+    margin-top: 10px;
+    margin-bottom: 100px;
+    background: maroon;
+    left: 30px;
+    border: 5px black solid;
+    
+    
+    
+    
+
+}
+.b3{
+     width: 40%;
+     margin-left: 20px;
+     margin-top: 1px;
+     display: inline-block;
+     float: left;
+}
+
+.p4{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+ }
+ .a4{
+    padding: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    
+    display: inline-block;
+    float: right;
+
+    
+    
+    
+}
+
+
+
+.i4{
+    position: relative;
+    /*top: 200px;
+    width: 30%;
+    /*float: right;*/
+    /*bottom: 400px;*/
+    position: relative;
+
+    top: 5px;
+    bottom: 10px;
+    /*float: right;*/
+    
+    /*margin-right: 100px;
+    margin-left: 40px;*/
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+    /*margin-right: 100px;*/
+    /*margin-left: 40px;
+    margin-top: 150px;*/
+    background: maroon;
+    left: 30px;
+    border: 5px black solid;
+    
+    
+    
+
+
+}
+.b4{
+     width: 40%;
+     margin-left: 20px;
+     margin-top: 1px;
+     display: inline-block;
+     float: right;
+}
+
+.p5{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /*background: url("/SUNRISE.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;*/
+ }
+ .a5{
+    padding: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: ;
+    display: inline-block;
+    float: left;
+
+    
+    
+    
+}
+
+
+
+.i5{
+    position: relative;
+    /*top: 200px;
+    width: 30%;
+    /*float: right;*/
+    /*bottom: 400px;*/
+    position: relative;
+
+    top: 5px;
+    bottom: 10px;
+    /*float: right;*/
+    
+    /*margin-right: 100px;
+    margin-left: 40px;*/
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+    /*margin-right: 100px;*/
+    /*margin-left: 40px;
+    margin-top: 150px;*/
+    background: maroon;
+    left: 30px;
+    border: 5px black solid;
+    
+    
+    
+
+
+}
+.b5{
+     width: 40%;
+     margin-left: 20px;
+     margin-top: 1px;
+     display: inline-block;
+     float: left;
+}
+.p6{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /*background: url("/SUNRISE.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    display: inline-block;
+    
+ }
+ .a6{
+    padding: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: ;
+    display: inline-block;
+    float: right;
+
+    
+    
+    
+}
+
+
+
+.i6{
+    position: relative;
+    /*top: 200px;
+    width: 30%;
+    /*float: right;*/
+    /*bottom: 400px;*/
+    position: relative;
+
+    top: 5px;
+    bottom: 10px;
+    /*float: right;*/
+    
+    /*margin-right: 100px;
+    margin-left: 40px;*/
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+    /*margin-right: 100px;*/
+    /*margin-left: 40px;
+    margin-top: 150px;*/
+    background: maroon;
+    left: 30px;
+    border: 5px black solid;
+
+}
+.b6{
+     width: 40%;
+     margin-left: 20px;
+     margin-top: 1px;
+     display: inline-block;
+     float: right;
+}
+
+
+.p7{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /*background: url("/SUNRISE.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    display: inline-block;
+    
+ }
+ .a7{
+    padding: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: ;
+    display: inline-block;
+    float: left;
+
+    
+    
+    
+}
+
+
+
+.i7{
+    position: relative;
+    /*top: 200px;
+    width: 30%;
+    /*float: right;*/
+    /*bottom: 400px;*/
+    position: relative;
+
+    top: 5px;
+    bottom: 10px;
+    /*float: right;*/
+    
+    /*margin-right: 100px;
+    margin-left: 40px;*/
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+    /*margin-right: 100px;*/
+    /*margin-left: 40px;
+    margin-top: 150px;*/
+    background: maroon;
+    left: 30px;
+    border: 5px black solid;
+    
+
+}
+.b7{
+     width: 40%;
+     margin-left: 20px;
+     margin-top: 1px;
+     display: inline-block;
+     float: left;
+}
+
+.p8{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /*background: url("/SUNRISE.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    display: inline-block;
+    
+ }
+ .a8{
+    padding: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: ;
+    display: inline-block;
+    float: right;
+
+    
+    
+    
+}
+
+
+
+.i8{
+    position: relative;
+    /*top: 200px;
+    width: 30%;
+    /*float: right;*/
+    /*bottom: 400px;*/
+    position: relative;
+
+    top: 5px;
+    bottom: 10px;
+    /*float: right;*/
+    
+    /*margin-right: 100px;
+    margin-left: 40px;*/
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+    /*margin-right: 100px;*/
+    /*margin-left: 40px;
+    margin-top: 150px;*/
+    background: maroon;
+    left: 30px;
+    border: 5px black solid;
+    
+
+}
+.b8{
+     width: 40%;
+     margin-left: 20px;
+     margin-top: 1px;
+     display: inline-block;
+     float: right;
+}
+
+
+
+
+
+ 
+
+    
+    
+    
+
+
+
+
+
+
+
+button{
+    background:  #86b300;
+    color:  white;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ 
+
+
+
+button:hover{
+    background: rgb(231, 162, 72);
+}
+
+
+.bottom-container{
+    background-color: black ;
+}
+.myButton {
+	box-shadow:inset 0px 39px 0px -24px  #86b300 ;
+	background:linear-gradient(to bottom,  #86b300 5%, #86b300 100%);
+	background-color: #86b300;
+	border-radius:7px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	padding:9px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px  #86b300;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom,   #86b300 5%, #86b300  100%);
+	background-color: #86b300 ;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me{
+    margin-top: -1px;
+    background-color:black ; 
+}
+.instapic{
+    width: 2rem;
+}
+.down{
+    color: white;
+}
+.green{
+    color: white;
+}
+
+
